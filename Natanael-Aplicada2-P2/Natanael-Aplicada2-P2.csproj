@@ -73,6 +73,7 @@
     <Content Include="js\grayscale.js" />
     <Content Include="js\grayscale.min.js" />
     <Content Include="js\toastr.min.js" />
+    <Content Include="Registro_Ventas.aspx" />
     <Content Include="vendor\bootstrap\css\bootstrap.css" />
     <Content Include="vendor\bootstrap\css\bootstrap.min.css" />
     <Content Include="vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" />
@@ -105,6 +106,13 @@
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Registro_Ventas.aspx.cs">
+      <DependentUpon>Registro_Ventas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registro_Ventas.aspx.designer.cs">
+      <DependentUpon>Registro_Ventas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Settings.cs" />
   </ItemGroup>

@@ -8,7 +8,7 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 
-    <meta charset="utf-8">
+    <%--<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -33,7 +33,7 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <![endif]-->--%>
 
 </head>
 <body>
@@ -43,7 +43,7 @@
         
         </asp:ContentPlaceHolder>
             
-            <!-- Navigation -->
+            <%--<!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -170,7 +170,7 @@
     <script src="/js/grayscale.min.js"></script>
 
     <!-- ToaStr JavaScript  -->
-    <script src="/js/toastr.min.js"></script>
+    <script src="/js/toastr.min.js"></script>--%>
 
     </div>
     </form>
