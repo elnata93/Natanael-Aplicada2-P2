@@ -13,5 +13,5 @@ create table VentasDetalle(Id int primary key identity(1,1),
 VentaId int,
 ArticuloId int references Articulos(ArticuloId),
 Cantidad int,
-Precio float
+Precio decimal
 );

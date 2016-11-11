@@ -23,6 +23,15 @@ namespace BLL
             return num;
         }
 
+        public static decimal ConvertirToDecimal(string numero)
+        {
+            decimal num;
+            decimal.TryParse(numero, out num);
+            return num;
+        }
+        
+
+
         //private static void Mensajes(string mensaje)
         //{
         //    HttpResponseWrapper.("<script>'" + mensaje + "' </script>");

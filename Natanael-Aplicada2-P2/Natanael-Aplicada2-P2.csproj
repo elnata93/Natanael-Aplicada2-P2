@@ -59,9 +59,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Parcial2Db.mdf" />
+    <Content Include="App_Data\Parcial2Db.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="App_Data\Parcial2Db_log.ldf">
       <DependentUpon>Parcial2Db.mdf</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="css\grayscale.css" />
     <Content Include="css\grayscale.min.css" />
